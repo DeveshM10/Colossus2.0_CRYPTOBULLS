@@ -6,18 +6,19 @@ import { motion } from "framer-motion"
 
 // Mock data for the chart
 const data = [
-  { date: "Jan", benchmark: 10000 },
-  { date: "Feb", benchmark: 10500 },
-  { date: "Mar", benchmark: 11000 },
-  { date: "Apr", benchmark: 11200 },
-  { date: "May", benchmark: 11800 },
-  { date: "Jun", benchmark: 12500 },
-  { date: "Jul", benchmark: 13000 },
-  { date: "Aug", benchmark: 13200 },
-  { date: "Sep", benchmark: 13800 },
-  { date: "Oct", benchmark: 14200 },
-  { date: "Nov", benchmark: 14800 },
-  { date: "Dec", benchmark: 15500 },
+  { date: "Apr", benchmark: 5035.69 },
+  { date: "May", benchmark: 5277.51 },
+  { date: "Jun", benchmark: 5460.48 },
+  { date: "Jul", benchmark: 5522.30 },
+  { date: "Aug", benchmark: 5648.40 },
+  { date: "Sep", benchmark: 5762.48 },
+  { date: "Oct", benchmark: 5705.45 },
+  { date: "Nov", benchmark: 6032.38 },
+  { date: "Dec", benchmark: 5881.63 },
+  { date: "Jan", benchmark: 6040.53 },
+  { date: "Feb", benchmark: 5954.50 },
+  { date: "Mar", benchmark: 5611.85 },
+  { date: "Apr", benchmark: 5363.36 },
 ]
 
 interface PerformanceChartProps {
